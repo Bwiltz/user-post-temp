@@ -1,0 +1,108 @@
+
+    body {
+      margin: 0;
+    }
+    .vjs-big-play-button {
+      background-color: #ff4b4b !important;
+    }
+    .vjs-big-play-button:hover {
+      background-color: red !important;
+    }
+    /* Show Play button on a paused video if controls are disabled */
+    .vjs-paused.vjs-controls-disabled.vjs-paused .vjs-big-play-button {
+      display: block;
+    }
+    /* Show invisible Play/Pause button on a playing video if controls are disabled */
+    .vjs-controls-disabled.vjs-playing  .vjs-big-play-button {
+      display: block;
+      background-color: transparent !important;
+      border: none;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      margin: auto;
+    }
+    .vjs-controls-disabled.vjs-playing  .vjs-big-play-button .vjs-icon-placeholder {
+      display: none;
+    }
+
+
+    /* Audio: Remove big play button (leave only the button in controls). */
+    .video-js.vjs-audio .vjs-big-play-button {
+      display: none;
+    }
+    /* Audio: Make the controlbar visible by default */
+    .video-js.vjs-audio .vjs-control-bar {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    /* Make player height minimum to the controls height so when we hide video/poster area the controls are displayed correctly. */
+    .video-js.vjs-audio {
+      min-height: 3em;
+    }
+
+    .video-js.vjs-audio .vjs-fullscreen-control {
+      display: none;
+    }
+    #video_ended_popup {
+      position: relative;
+      margin: auto;
+      text-align: center;
+    }
+    #video_ended_popup .message {
+      font-size: 24px;
+      margin: 20px;
+    }
+
+    .vjs-modal-dialog-content {
+      background: #333;
+    }
+
+    .buttons_wrap {
+      width: 140px;
+      display:inline-block;
+    }
+
+    .buttons {
+      border: none;
+      background: #404040;
+      color: #ffffff !important;
+      font-weight: 100;
+      padding: 20px;
+      text-transform: uppercase;
+      border-radius: 6px;
+      display: inline-block;
+      text-decoration:none;
+      margin: 10px;
+    }
+
+    .buttons:hover {
+      color: #404040 !important;
+      font-weight: 700 !important;
+      letter-spacing: 1px;
+      background: white;
+      transition: all 0.3s ease 0s;
+    }
+    #video_ended_popup.small .message {
+      font-size: 14px;
+    }
+    #video_ended_popup.small .buttons_wrap {
+      font-size: 10px;
+      width: 90px;
+    }
+    #video_ended_popup.small .buttons {
+      padding: 10px;
+    }
+
+    .autoplay-enabled.target-iframe .exit_button  {
+      display: none;
+    }
+    #video.vjs-fullscreen {
+      width: 100% !important;
+      height: 100% !important;
+      left: 0 !important;
+      top: 0 !important; 
+    }

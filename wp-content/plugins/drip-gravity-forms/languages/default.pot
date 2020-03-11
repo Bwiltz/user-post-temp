@@ -1,0 +1,316 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms Drip Add-On\n"
+"POT-Creation-Date: 2016-04-14 00:02-0500\n"
+"PO-Revision-Date: 2016-04-14 00:03-0500\n"
+"Last-Translator: Naomi C. Bush <hello@naomicbush.com>\n"
+"Language-Team: gravity+ <support@gravityplus.pro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../includes/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-addon.php:136
+msgid "Take Drip action only when a payment is received."
+msgstr ""
+
+#: class-addon.php:214
+msgid "Invalid email address"
+msgstr ""
+
+#: class-addon.php:272
+msgid "Authentication"
+msgstr ""
+
+#: class-addon.php:273
+#, php-format
+msgid ""
+"Enter your Drip API token. You can find it in your Drip account %shere%s "
+"(General Settings)"
+msgstr ""
+
+#: class-addon.php:277
+msgid "API Token"
+msgstr ""
+
+#: class-addon.php:284
+msgid "Authenticate"
+msgstr ""
+
+#: class-addon.php:286
+msgid "API token authenticated"
+msgstr ""
+
+#: class-addon.php:309
+msgid "An API token is required for this plugin to work"
+msgstr ""
+
+#: class-addon.php:317
+msgid "Invalid API token"
+msgstr ""
+
+#: class-addon.php:380
+msgid "Authenticate your Drip Account"
+msgstr ""
+
+#: class-addon.php:383
+#, php-format
+msgid "To get started, please %s."
+msgstr ""
+
+#: class-addon.php:407 class-addon.php:445
+msgid "Name"
+msgstr ""
+
+#: class-addon.php:408 class-addon.php:454 class-addon.php:618
+msgid "Drip Action"
+msgstr ""
+
+#: class-addon.php:448
+msgid "Name for this feed"
+msgstr ""
+
+#: class-addon.php:457
+msgid "Select the Drip action you want to take when someone submits this form"
+msgstr ""
+
+#: class-addon.php:464
+msgid "Drip Account"
+msgstr ""
+
+#: class-addon.php:467
+msgid "Select the Drip account you want to use"
+msgstr ""
+
+#: class-addon.php:474
+msgid "Subscriber Email"
+msgstr ""
+
+#: class-addon.php:482
+msgid "New Email Address"
+msgstr ""
+
+#: class-addon.php:485
+msgid "If updating, a new email address for the subscriber"
+msgstr ""
+
+#: class-addon.php:490
+msgid "Custom Fields"
+msgstr ""
+
+#: class-addon.php:493
+msgid ""
+"Enter your custom field name, then select the form field with the value for "
+"that field"
+msgstr ""
+
+#: class-addon.php:498
+msgid "Tags to add"
+msgstr ""
+
+#: class-addon.php:501
+msgid "A comma-separated list of tags to add to this subscriber"
+msgstr ""
+
+#: class-addon.php:507
+msgid "Tags to remove"
+msgstr ""
+
+#: class-addon.php:510
+msgid "A comma-separated list of tags to remove from this subscriber"
+msgstr ""
+
+#: class-addon.php:516
+msgid "User ID"
+msgstr ""
+
+#: class-addon.php:519
+msgid ""
+"A unique identifier for the user in your database, such as a primary key"
+msgstr ""
+
+#: class-addon.php:523
+msgid "Attach lead score?"
+msgstr ""
+
+#: class-addon.php:526
+msgid ""
+"Should Drip attach a lead score to the subscriber (when lead scoring is "
+"enabled)?"
+msgstr ""
+
+#: class-addon.php:537
+msgid "Start lead score at"
+msgstr ""
+
+#: class-addon.php:540
+msgid "The starting value for lead score calculation for this subscriber"
+msgstr ""
+
+#: class-addon.php:544 class-addon.php:563 class-addon.php:582
+msgid "Select a Field"
+msgstr ""
+
+#: class-addon.php:556
+msgid "Email to send first"
+msgstr ""
+
+#: class-addon.php:559
+msgid "The index of the email to send first. Starts at 0"
+msgstr ""
+
+#: class-addon.php:574
+msgid "Action"
+msgstr ""
+
+#: class-addon.php:577
+msgid "The name of the action taken, e.g. \"Logged in\""
+msgstr ""
+
+#: class-addon.php:588
+msgid "Custom Event Properties"
+msgstr ""
+
+#: class-addon.php:591
+msgid ""
+"Enter your custom event property name, then select the form field with the "
+"value for that property"
+msgstr ""
+
+#: class-addon.php:596
+msgid "Drip Campaign"
+msgstr ""
+
+#: class-addon.php:605 class-addon.php:607 class-addon.php:718
+msgid "Conditional Logic"
+msgstr ""
+
+#: class-addon.php:607
+msgid ""
+"When conditions are enabled, form submissions will only be sent to Drip when "
+"the conditions are met. When disabled, all form submissions will be sent to "
+"Drip."
+msgstr ""
+
+#: class-addon.php:612
+msgid "Feed Name"
+msgstr ""
+
+#: class-addon.php:625 class-addon.php:637 class-addon.php:659
+#: class-addon.php:669
+msgid "Drip Fields"
+msgstr ""
+
+#: class-addon.php:649
+msgid "Campaign"
+msgstr ""
+
+#: class-addon.php:680 class-addon.php:694 class-addon.php:704
+msgid "Other Options"
+msgstr ""
+
+#: class-addon.php:738
+msgid "Create or Update Subscriber"
+msgstr ""
+
+#: class-addon.php:742
+msgid "Record Event"
+msgstr ""
+
+#: class-addon.php:746
+msgid "Subscribe to Campaign"
+msgstr ""
+
+#: class-addon.php:750
+msgid "Unsubscribe from Campaign"
+msgstr ""
+
+#: class-addon.php:837
+msgid "All Campaigns"
+msgstr ""
+
+#: views/plugin-page.php:109
+#, php-format
+msgid "Welcome to Drip Add-On %s"
+msgstr ""
+
+#: views/plugin-page.php:114
+msgid "The Gravity Forms Drip Add-On is now"
+msgstr ""
+
+#: views/plugin-page.php:115
+msgid " 10x more powerful."
+msgstr ""
+
+#: views/plugin-page.php:116
+msgid "There are some "
+msgstr ""
+
+#: views/plugin-page.php:117
+msgid "things to look out for"
+msgstr ""
+
+#: views/plugin-page.php:118
+msgid ", so check your "
+msgstr ""
+
+#: views/plugin-page.php:120
+msgid ", so get the "
+msgstr ""
+
+#: views/plugin-page.php:122
+msgid "field guide"
+msgstr ""
+
+#: views/plugin-page.php:122
+msgid ", and save yourself some time and mistakes."
+msgstr ""
+
+#: views/plugin-page.php:128
+msgid "Send me the field guide"
+msgstr ""
+
+#: views/plugin-page.php:131 views/plugin-page.php:186
+msgid "Please wait..."
+msgstr ""
+
+#: views/plugin-page.php:140
+msgid "A Brief Look"
+msgstr ""
+
+#: views/plugin-page.php:144
+msgid "Manage Drip Contextually"
+msgstr ""
+
+#: views/plugin-page.php:146
+msgid ""
+"Drip Feeds are now accessed via the Drip sub-menu within the Form Settings "
+"for the form you would like to integrate Drip with."
+msgstr ""
+
+#: views/plugin-page.php:157
+msgid "Choose Drip Action"
+msgstr ""
+
+#: views/plugin-page.php:159
+msgid "Perform one or multiple Drip actions when a form is submitted."
+msgstr ""
+
+#: views/plugin-page.php:170
+msgid "Map Custom Fields"
+msgstr ""
+
+#: views/plugin-page.php:172
+msgid ""
+"You can now map *any* Gravity Forms field or metadata to your Drip custom "
+"fields."
+msgstr ""
+
+#: views/plugin-page.php:184
+msgid "I understand this change, dismiss this message!"
+msgstr ""

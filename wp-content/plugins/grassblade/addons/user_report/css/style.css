@@ -1,0 +1,264 @@
+#gb_user_report .gb-profile{
+	width: 100%;
+	height: auto;
+}
+#gb_user_report .gb-user-profile>img{
+	width: 160px !important;
+	height: 160px !important;
+	margin: auto;
+	z-index: 1;
+	border: 8px solid #ffffff;
+	margin-bottom: -70px;
+	position: relative;
+}
+#gb_user_report .avatar {
+    border-radius: 100% !important;
+    display: block;
+    height: calc(2.25 * 1rem);
+    min-height: inherit;
+    width: calc(2.25 * 1rem);
+}
+.gb-user-info{
+	padding-top: 60px !important;
+	padding: 2%;
+	background-color: #83BA39;
+	color: #ffffff;
+	text-align: center;
+}
+.gb-user-info > h3{
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+	color: #ffffff !important;
+}
+.gb-edit-profile {
+	text-decoration: none !important;
+	color: #ffffff !important;
+	font-size: 15px;
+	cursor: pointer;
+}
+.gb-course-data > div {
+	float: left;
+	width: 25% !important;
+	margin-top: 1% !important;
+	margin-bottom: 1% !important;
+}
+.gb-course-data > div > p {
+	margin: 0px !important;
+}
+.gb-data-value{
+	font-weight: 700;
+	font-size: 30px !important;
+}
+.gb-course-info {
+	padding: 1.5%;
+	border: 2px solid #83BA39 !important;
+	font-size: 16px;
+	text-align: center;
+}
+.gb-course-info > div > div {
+	margin-bottom: 10px;
+}
+.gb-status-filter{
+	margin-bottom: 10px;
+	text-align: left;
+	float: left;
+	width: 50%;
+	cursor: pointer;
+}
+.gb-expand-filter {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+.gb-expand-filter button{
+	margin-top: 5.5px;
+	padding: 8px 30px 8px 30px;
+	border-radius: 50px;
+	background: #83BA39 !important;
+	cursor: pointer;
+	color: #ffffff !important;
+}
+.dataTables_length{
+	margin-top: 1.8%;
+}
+/** DataTable Filter Input **/
+.dataTables_filter{
+	width: 50%;
+	margin-top: 1.8%;
+}
+.dataTables_filter input {
+	padding: 2% !important;
+	border-radius: 25px !important;
+	margin-left: 2% !important;
+	width: 70%;
+    height: 35px;
+    float: right;
+	margin-top: -7px;
+}
+/** Table CSS **/
+table.dataTable thead th, table.dataTable tbody td {
+    padding: 5px 8px !important;
+}
+#gb_report_table {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	table-layout: auto;
+}
+.course-info > table {
+	margin-bottom: 0px;
+}
+.xapi-content-link {
+	text-decoration: none !important;
+	color: #000000 !important;
+	cursor: pointer;
+}
+.xapi-content-link:hover{
+	color: #83BA39 !important;
+}
+table.dataTable.no-footer {
+    border-bottom: 0 !important;
+}
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 1px solid #767676 !important;
+}
+#gb_report_table td, th {
+    text-align: center !important;
+}
+#sub_report_tbl tr {
+	margin: 5px 0px 5px 0 !important; 
+}
+#sub_report_tbl {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	table-layout: auto;
+}
+.paginate_button {
+	background: #ffffff !important;
+    color: #020202 !important;
+}
+.paginate_button.current{
+    border: 2px solid #979797 !important;
+    border-radius: 10%;
+}
+.paginate_button:hover {
+	background: #83BA39 !important;
+    color: #000000 !important;
+}
+@media (max-width: 768px) {
+	.user-info > h3{
+		font-size: 28px !important;			
+	}
+	.course-data > div {
+		float: left;
+		width: 50% !important;
+		margin-top: 2% !important;
+		margin-bottom: 2% !important;
+	}
+	.status-filter{
+		margin-bottom: 10px;
+		text-align: center;
+		width: 100%;
+	}
+	.expand-filter{
+		margin-bottom: 10px;
+		text-align: center;
+		width: 100%;
+	}
+	/** DataTable Filter Input **/
+	.dataTables_filter{
+		width: 100%;
+	}
+	.dataTables_filter input {
+		padding: 2% !important;
+		border-radius: 25px !important;
+		margin-left: 2% !important;
+		width: 96%;
+		float: none;
+		margin-top: 0px;
+	}
+	.data-value{
+		font-weight: 700;
+		font-size: 23px !important;
+	}
+	#gb_report_table thead {
+	    border: none;
+	    clip: rect(0 0 0 0);
+	    height: 1px;
+	    margin: -1px;
+	    overflow: hidden;
+	    padding: 0;
+	    position: absolute;
+	    width: 1px;
+	}
+	#gb_report_table tr {
+	    border-bottom: 3px solid #ddd;
+	    display: block;
+	    margin-bottom: .625em;
+	}
+	#gb_report_table td {
+	    border-bottom: 1px solid #ddd;
+	    display: block;
+	    font-size: .8em;
+	    text-align: right !important;
+	}
+	#gb_report_table td::before {
+	    /** aria-label has no advantage, it won't be read inside a table
+	    content: attr(aria-label);
+	    */
+	    content: attr(data-label);
+	    float: left;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	#gb_report_table td:last-child {
+	    border-bottom: 0;
+	}
+	#sub_report_tbl thead {
+	    border: none;
+	    clip: rect(0 0 0 0);
+	    height: 1px;
+	    margin: -1px;
+	    overflow: hidden;
+	    padding: 0;
+	    position: absolute;
+	    width: 1px;
+	}
+	#sub_report_tbl tr {
+	    border-bottom: 3px solid #ddd;
+	    display: block;
+	    margin-bottom: .625em;
+	}
+	#sub_report_tbl td {
+	    border-bottom: 1px solid #ddd;
+	    display: block;
+	    font-size: .8em;
+	    text-align: right !important;
+	}
+	.gb-icon {
+	    height: 27px;
+	    width: 22px;
+	    margin: inherit !important;
+	    background-size: cover;
+	    cursor: pointer;
+	}
+	#sub_report_tbl td > a > div {
+	    margin-left: auto !important;
+	}
+	#sub_report_tbl td::before {
+	    /** aria-label has no advantage, it won't be read inside a table
+	    content: attr(aria-label);
+	    */
+	    content: attr(data-label);
+	    float: left;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+	#sub_report_tbl td:last-child {
+	    border-bottom: 0;
+	}
+	.xapi-content-link{
+		margin-left: 30px;
+	}
+}

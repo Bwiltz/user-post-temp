@@ -1,0 +1,11 @@
+** WooCommerce Gateway Purchase Order Changelog **
+
+2015.03.20 - version 1.1.1
+ * Fix - Makes sure translation files are loaded correctly.
+ * Fix - Fixes the warning notice about the deprecation of WC()->add_error().
+
+2015.01.21 - version 1.1.0
+ * New - Adds the purchase order number to the transactional emails sent and to the order details screen.
+
+2014.08.14 - version 1.0.0
+ * New - First release!

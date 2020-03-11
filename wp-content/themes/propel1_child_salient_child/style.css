@@ -1,0 +1,367 @@
+/*
+    Theme Name: Propel1 Child Salient Child
+    Theme URI: http: //mysite.com/
+    Description: Salient Child Theme
+    Author: Scitent
+    Template: salient
+    Version: 0.1
+ */
+
+/*/// Sitewide Custom Styles ///*/
+
+/* Disable Ajax loading animations */
+#ajax-loading-screen {
+    display: none !important;
+}
+
+/* Hides product filters */
+div.extra-filter-data {
+    display: none;
+}
+
+/* Styles 'View More' link */
+a.course-info {
+    margin-top: 11px;
+    margin-bottom: 5%;
+    display: block;
+}
+
+/* Styles 'Add to Cart' link */
+/* button.cert-button */
+.button {
+    color: #2d76ae;
+    background-color: #fff;
+    border: 1px solid #2d76ae;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #2d76ae;
+    border: 1px solid #2d76ae;
+}
+
+/* Styles 'Price Area' link */
+p.price-area {
+    padding: 15px 0px 20px 0px;
+}
+
+span.price-number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Styles the product image */
+div.catalog-image-wrapper {
+    padding-bottom: 20px;
+}
+
+/* Adds background to catalog course blocks */
+.course-block-wrapper{
+    background-color: #fff;
+}
+
+/* Removes padding from excerpt div p */
+.excerpt p {
+    padding-bottom: 0;
+}
+
+/* Credit type icons */
+.list section.courselist-course .courselist-course-info .credit-type.cme:before{
+    content: "\f0a3";
+}
+
+.list section.courselist-course .courselist-course-info .credit-type.coc:before{
+    content: "\f097";
+}
+
+.list section.courselist-course .courselist-course-info .credit-type:before {
+    font-family: FontAwesome;
+    padding-right: 1em;
+}
+
+/*// Products //*/
+div.quantity input {
+    width: 45px !important;
+}
+
+/*/// My Account ///*/
+fieldset {
+    margin-bottom: 20px;
+}
+
+.woocommerce-account .addresses .title .edit {
+    float: left !important;
+    margin: 5px 0px 5px 10px;
+    line-height: 1.8;
+}
+
+/*/// My Courses ///*/
+
+/* Improves layout */
+div.progress-wrapper {
+    padding-bottom: 25px;
+}
+
+div.cert-button-wrapper {
+    padding-top: 25px;
+}
+
+div.course-section-center {
+    padding: 4px 10px 4px 10px;
+}
+
+div.courselist-cert-claim {
+    padding: 20px 10px 4px 10px;
+}
+
+div.cert-button-wrapper {
+    padding: 25px 4px 4px 4px;
+}
+
+div.course-section-center h2.course_title,
+.product-title {
+    font-size: 2em;
+    line-height: normal;
+}
+
+a.cert-button {
+    color: #2d76ae;
+    background-color: #fff;
+    border: 1px solid #2d76ae;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+a.cert-button:hover {
+    color: #fff;
+    background-color: #2d76ae;
+    border: 1px solid #2d76ae;
+}
+
+/* Nav Icons */
+i[class*="fa-"], span[class*="fa-"]{
+    height: unset !important;
+    width: unset !important;
+    line-height: unset !important;
+}
+
+/* Flex display for expired courses */
+.expired-courses .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Hides Mark Complete buttons */
+input.learndash_mark_complete_button {
+    display: none !important;
+}
+
+/* Styles launch buttons within courses + lessons */
+.my-courses div.cert-button-wrapper {
+    padding-top: 0px;
+}
+
+.my-courses div.cert-button-wrapper {
+    padding: unset;
+}
+
+.grassblade_launch_link {
+    transition: all 1s !important;
+    text-transform: uppercase !important;
+    text-align: center;
+    line-height: 21px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2d76ae;
+    border: 1px solid #2d76ae !important;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+a.grassblade_launch_link:hover {
+    color: #fff;
+    background-color: #2d76ae;
+    border: 1px solid #2d76ae !important;
+}
+
+.my-courses a.course-access {
+    text-align: center;
+    color: #2d76ae;
+    background-color: #fff;
+    border: 1px solid #2d76ae;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.my-courses a.course-access:hover {
+    color: #fff;
+    background-color: #2d76ae;
+    border: 1px solid #2d76ae;
+}
+
+.my-courses a.cert-button {
+    text-align: center;
+    color: #2d76ae;
+    background-color: #fff;
+    border: 1px solid #2d76ae;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    display: block;
+    float: unset;
+}
+
+.my-courses a.cert-button:hover {
+    color: #fff;
+    background-color: #2d76ae;
+    border: 1px solid #2d76ae;
+}
+
+/*// Woocommerce //*/
+/* Styles for return to my courses div in thankyou.php */
+#return-to-my-courses-btn-woo {
+    padding: 10px 0px 25px 0px;
+}
+
+.checkout-mycourses {
+    text-align: center;
+    color: #2d76ae;
+    background-color: #fff;
+    border: 1px solid #2d76ae;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.checkout-mycourses:hover {
+    color: #fff;
+    background-color: #2d76ae;
+    border: 1px solid #2d76ae;
+}
+
+/*/// Footer ///*/
+#footer-outer i {
+    padding-right: 15px;
+}
+
+.footer-logo {
+    width: 250px !important;
+}
+
+.copyright-img {
+    width: 100px !important;
+    padding: 10px 0px 0px 10px !important;
+    vertical-align: middle !important;
+}
+
+/* Telehealth Specific Styles */
+
+/* Header */
+header#top #logo img{
+    margin-bottom: 25px;
+}
+#header-outer{
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;;
+}
+body[data-header-color="custom"]:not(.material) #header-secondary-outer nav >ul >li >a{
+    border-left: 1px solid #fff !important;
+}
+#mobile-menu{
+    background-color: #2d76ae;
+}
+#mobile-menu ul li a{
+    color: #fff !important;
+}
+#header-secondary-outer{
+    border-bottom: 1px solid #fff !important;
+}
+
+
+/* Home */
+.home-training-box{
+    border-top: 20px solid #AF4F3E;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 10px #e8e8e8;
+}
+
+/* Cart */
+.woocommerce-page .woocommerce p.cart-empty {
+    padding: 1em;
+    font-size: 24px;
+}
+.sub-menu{
+    color: #2d76ae !important;
+}
+button.single_add_to_cart_button{
+    width: 100% !important;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #2d76ae ;
+}
+div.quantity{
+    margin-right: unset !important;
+}
+.product-details-icons i{
+    color: #af4f3e;
+    padding-right: 10px;
+}
+
+/* Page Background */
+.container-wrap {
+    background: linear-gradient(to right, rgb(255,255,255,0.98), rgb(255,255,255,0.98)), url(/wp-content/uploads/2019/10/new-circuit-board-pattern-compressor-903x1024.png) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 100%;
+}
+
+/* Buttons */
+.orange-button {
+    border: 2px solid #942D1B;
+    color: #942D1B;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.orange-button:hover {
+    border: 2px solid #942D1B;
+    color: #ffffff;
+    background-color: #942D1B;
+}
+input#gform_submit_button_3{
+    border: 2px solid #2d76ae !important;
+    background-color: #fff !important;
+    color: #2d76ae;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+input#gform_submit_button_3:hover{
+    border: 2px solid #2d76ae !important;
+    background-color: #2d76ae !important;
+    color: #fff;
+}
+input#gform_submit_button_4:hover{
+    border: 2px solid #2d76ae !important;
+    background-color: #2d76ae !important;
+    color: #fff;
+}
+
+/* Footer */
+#footer-outer{
+    border-top: 3px solid #d4d4d4 !important;
+}
+#footer-outer i{
+    color: #40a1ea !important;
+}
